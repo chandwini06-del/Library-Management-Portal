@@ -1,0 +1,113 @@
+{
+  "books": [
+    {
+      "id": "b1",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "isbn": "9780061122415",
+      "category": "Fiction",
+      "year": 1988,
+      "status": "Available"
+    },
+    {
+      "id": "b2",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "isbn": "9780132350884",
+      "category": "Technology",
+      "year": 2008,
+      "status": "Issued"
+    },
+    {
+      "id": "b3",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "isbn": "9780735211292",
+      "category": "Self-help",
+      "year": 2018,
+      "status": "Available"
+    },
+    {
+      "id": "b4",
+      "title": "Wings of Fire",
+      "author": "A. P. J. Abdul Kalam",
+      "isbn": "9788173711466",
+      "category": "Biography",
+      "year": 1999,
+      "status": "Available"
+    }
+  ],
+  "members": [
+    {
+      "id": "m1",
+      "name": "Ananya Rao",
+      "email": "ananya@example.com",
+      "phone": "9876543210",
+      "joinedOn": "2026-01-10"
+    },
+    {
+      "id": "m2",
+      "name": "Rahul Kumar",
+      "email": "rahul@example.com",
+      "phone": "9876501234",
+      "joinedOn": "2026-02-15"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "0f05fb18-3917-4d96-9048-d22826dd407d",
+      "bookId": "b2",
+      "bookTitle": "Clean Code",
+      "memberId": "m1",
+      "memberName": "Ananya Rao",
+      "type": "Issue",
+      "date": "2026-10-30",
+      "dueDate": "2026-10-31",
+      "status": "Returned",
+      "returnDate": "2026-10-30"
+    },
+    {
+      "id": "5f1842b2-903d-4a63-aa81-a1aae227419b",
+      "bookId": "b2",
+      "bookTitle": "Clean Code",
+      "memberId": "m1",
+      "memberName": "Ananya Rao",
+      "type": "Return",
+      "date": "2026-10-30",
+      "status": "Completed"
+    },
+    {
+      "id": "da9a22fb-68d4-49ac-8c59-e832828ec89b",
+      "bookId": "b1",
+      "bookTitle": "The Alchemist",
+      "memberId": "m1",
+      "memberName": "Ananya Rao",
+      "type": "Issue",
+      "date": "2026-10-30",
+      "dueDate": "2026-10-31",
+      "status": "Returned",
+      "returnDate": "2026-10-30"
+    },
+    {
+      "id": "1ed80459-9466-49f6-b05f-4d41f237f800",
+      "bookId": "b2",
+      "bookTitle": "Clean Code",
+      "memberId": "m1",
+      "memberName": "Ananya Rao",
+      "type": "Issue",
+      "date": "2026-10-30",
+      "dueDate": "2026-10-31",
+      "status": "Active"
+    },
+    {
+      "id": "bde1514b-d3a5-448e-a3f1-f6f90a0e7205",
+      "bookId": "b1",
+      "bookTitle": "The Alchemist",
+      "memberId": "m1",
+      "memberName": "Ananya Rao",
+      "type": "Return",
+      "date": "2026-10-30",
+      "status": "Completed"
+    }
+  ]
+}
